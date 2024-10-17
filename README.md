@@ -34,24 +34,17 @@ O banco de dados foi modelado para representar os seguintes elementos:
 
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
-- **`.venv`**: Contém o ambiente virtual do Python com todas as bibliotecas necessárias para o desenvolvimento e execução do projeto.
-- **`scripts`**: Pasta que pode conter scripts auxiliares para automatizar tarefas do desenvolvimento.
-- **`src`**: Todo o código-fonte do projeto se encontra aqui, incluindo arquivos principais como `main.py`.
-- **`README.md`**: Este arquivo que serve como guia e explicação geral sobre o projeto.
+- **`Agro_Solo_Database.sql`**: Contém o código SQL do banco de dados.
+- **`Agro_Solo_Database.xml`**: Contém o código em XML.
+- **`image.png`**: Imagem do programa sendo executado.
+- **`imagme_banco`**: Imagem do modelo relacional.
 
 ## 🔧 Como Executar o Código
 
-1. Instale o Python na sua máquina.
-2. Recomenda-se usar as IDEs PyCharm ou Visual Studio Code.
-3. Adicione a pasta `.venv` ao seu projeto.
-4. Instale as bibliotecas necessárias:
-   - `oracledb`
-   - `pandas`
-5. Importe as bibliotecas necessárias no seu código:
-   ```python
-   import os
-   import datetime
-   import oracledb
-   import pandas as pd
-   import sys
-   import json
+Clone este repositório:
+1. git clone https://github.com/luanaportop/AgroSolo_DataBase
+
+2. Execute o script SQL no seu banco de dados MySQL para criar as tabelas e relacionamentos.
+
+3. Customize as inserções de dados de acordo com as suas necessidades. 
+
